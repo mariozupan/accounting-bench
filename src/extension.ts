@@ -6,6 +6,7 @@ import type { EvaluateOptions, ScoreWeights } from "./types";
 import { DEFAULT_WEIGHTS } from "./types";
 
 export function createExtension(_settingsManager: any): ExtensionFactory {
+  console.log("[accounting-bench] createExtension called!");
   return (pi: ExtensionAPI) => {
     // Register evaluation tools
     pi.registerTool({

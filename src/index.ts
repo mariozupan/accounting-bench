@@ -1,5 +1,8 @@
 import { createExtension } from "./extension";
 
+// Debug: Log when module is loaded
+console.log("[accounting-bench] Module loaded");
+
 export { evaluateSession } from "./evaluator/session";
 export { validateDoubleEntry, validateAccountOpening } from "./validator/double-entry";
 export { validateBalanceSheet, validatePNL, validateCashFlow } from "./validator/statements";
