@@ -1,3 +1,5 @@
+import { createExtension } from "./extension";
+
 export { evaluateSession } from "./evaluator/session";
 export { validateDoubleEntry, validateAccountOpening } from "./validator/double-entry";
 export { validateBalanceSheet, validatePNL, validateCashFlow } from "./validator/statements";
@@ -12,3 +14,6 @@ export type {
   FinancialStatements,
   ScoreWeights
 } from "./types";
+
+// Default export for pi extension loader
+export default createExtension;
