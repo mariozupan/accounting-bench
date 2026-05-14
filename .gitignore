@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Benchmark output
+results/
+reports/
+*.csv
+*.json
+
+# Sessions (from pi-share-hf)
+.pi/hf-sessions/
+
+# Environment
+.env
+.env.local
