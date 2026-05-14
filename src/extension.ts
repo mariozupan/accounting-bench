@@ -156,6 +156,7 @@ export function createExtension(_settingsManager: any): ExtensionFactory {
     });
 
     // Notify on load
+    console.log("[accounting-bench] Extension loading...");
     pi.on("session_start", async (_event, ctx) => {
       if (ctx.hasUI) {
         ctx.ui.notify("Accounting Benchmark extension loaded", "info");
