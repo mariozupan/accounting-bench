@@ -16,7 +16,7 @@ Inspired by [SWE-bench](https://github.com/princeton-nlp/SWE-bench) for software
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/accounting-bench.git
+git clone https://github.com/mariozupan/accounting-bench.git
 cd accounting-bench
 
 # Install dependencies
